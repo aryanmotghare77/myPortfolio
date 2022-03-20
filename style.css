@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Assistant&family=Bebas+Neue&family=Comfortaa&family=Gugi&family=Indie+Flower&family=Montserrat:wght@200&family=Mulish:wght@500&family=Quicksand:wght@300&family=Roboto&family=Shizuru&family=Sora:wght@300&family=Space+Mono&family=Varela+Round&family=Work+Sans:wght@100;400&display=swap');
+*{
+    margin : 0;
+    padding : 0;
+}
+.sidebar {
+    font-family: 'Sora', sans-serif;
+    height: 100vh;
+    /* background-color: rgb(199, 199, 199); */
+    transition: display 2s linear 1s;
+    }   
+
+.main{
+    width:80vw;
+    
+    margin-left : 2rem;
+}
+.container{
+    display : flex;
+    /* margin-top:2rem; */
+}
+li{
+    padding-bottom: 53px;
+    list-style:none;
+    font-size : x-large;
+}
+nav{
+    padding : 56px;
+}
+.infoContainer{
+    height: 15vh;
+    width: 80vw;
+    display: flex;
+    margin: 200px auto;
+    padding-bottom: 233px;
+    justify-content : end;
+    /* background-color:red; */
+}
+.img{
+    height: 243px;
+    margin-bottom : 90vh;
+}
+.devInfo{
+    display : flex;
+    justify-content : center;
+    flex-direction : column;
+    font-family: 'Roboto', sans-serif;
+    font-size : 2rem;
+    
+}
+.name{
+    font-family: 'Space Mono', monospace;
+    font-size:2.2rem;
+}
+.Hello{
+    font-size : 5rem;
+}
+
+.about{
+    font-family: 'Quicksand', sans-serif;
+    font-size : 75%;
+    margin-bottom:.5%;
+}
+.moreabout{
+    font-family: 'Quicksand', sans-serif;
+    font-size : 1.3rem;
+}
+.button{
+    font-family: 'Quicksand', sans-serif;
+    
+
+}
+button {
+    position: relative;
+    background-color: #54ffc0;
+    border: none;
+    font-size: 14px;
+    color: #000000;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius :23pc;
+    margin-top:2rem;
+  }
+form button{
+    position: relative;
+    background-color: #54ffc0;
+    border: none;
+    font-size: 20px;
+    color: #000000;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius :23pc;
+}
+  button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+a,li,button{
+    cursor:pointer;
+}
+a{
+    text-decoration : none;
+    color:black;
+}
+body ::selection{
+    background-color:rgb(39, 192, 103);
+}
+.mb-3{
+    margin-top:1.3rem;
+    padding : 0.9rem;
+    font-size : 1.4em;
+}
+form button{
+    padding-right : 2rem;
+    text-align : center;
+    border-radius :1.1rem;
+    margin-left : .5em;
+}
+form label{
+    font-family: 'Roboto', sans-serif;
+    font-size : 1.2rem; 
+}
+form input{
+    padding-right : 15.2rem;
+    padding-bottom:.7rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size : 1.2rem;
+}
+h2{
+    font-size : 3rem;
+    text-align:center;
+    font-family: 'Space Mono', monospace;
+}
+.contactForm{
+    margin-left : 15rem;
+}
+.projects{
+    width:60vw;
+    height : 100vh;
+    margin:auto;
+}
+.post{
+    margin-top:3em;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    
+    font-family: 'Roboto', sans-serif;
+}
+.post h3{
+    font-family: 'Space Mono', monospace;
+    font-size :1.7em;
+}
+.post p{
+    font-family: 'Quicksand', sans-serif;
+    font-size : 1.1em;
+}
+.me{
+    font-size : 60%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.progress-html{
+    height:10px;
+    width:45vw;
+    background-color:cyan;
+    margin-bottom:1.3em;
+}
+.progress-css{
+    height:10px;
+    width:37vw;
+    background-color:rgb(26, 125, 255);
+    margin-bottom:1.3em;
+}
+.progress-js{
+    height:10px;
+    width:50vw;
+    background-color:rgb(228, 26, 255);
+    margin-bottom:1.3em;
+}
+.progress-php{
+    height:10px;
+    width:50vw;
+    background-color:rgb(248, 135, 28);
+    margin-bottom:1.3em;
+}
+.progress-c_cpp{
+    height:10px;
+    width:55vw;
+    background-color:rgb(186, 28, 248);
+    margin-bottom:1.3em;
+}
+.skill{
+ 
+    font-family: 'Roboto', sans-serif;
+    margin-top:1rem;
+}
+.percent{
+    font-size:.7em;
+    color:rgb(68, 65, 65);
+}
+.html{
+    top : 0;
+}
+.css{
+    
+    bottom : 6rem;
+}
+.php{
+    bottom:-6rem;
+}
+.js{
+    bottom:0;
+}
+.c_cpp{
+    bottom:-12rem;
+}
+.skillContainer{
+    /* border:2px solid red; */
+    height:19rem;
+    width:60vw;
+    position:absolute;
+    top:25rem;
+}
+.infoContainer {
+    height: 15vh;
+    width: 40vw;
+    display: flex;
+    margin: 180px auto 2px -12rem;
+    padding-bottom: 233px;
+    justify-content: end;
+    /* background-color: red; */
+}
+a{
+    color:black;
+}
+a:hover{
+    color:green;
+}
+/* Responsiveness Code */
+@media screen and ( max-width:1212px){
+    .sidebar {
+        width: 20vw;
+        font-family: 'Sora', sans-serif;
+        height: 100vh;
+        /* background-color: rgb(199, 199, 199); */
+      display:none;
+    }
+    .ham{
+        display:block
+    }
+    .projects {
+        width: 33vw;
+        height: 100vh;
+        margin: auto;
+    }
+    
+.progress-html{
+    height:10px;
+    width:45vw;
+    background-color:cyan;
+    margin-bottom:1.3em;
+}
+.progress-css{
+    height:10px;
+    width:37vw;
+    background-color:rgb(26, 125, 255);
+    margin-bottom:1.3em;
+}
+.progress-js{
+    height:10px;
+    width:50vw;
+    background-color:rgb(228, 26, 255);
+    margin-bottom:1.3em;
+}
+.progress-php{
+    height:10px;
+    width:50vw;
+    background-color:rgb(248, 135, 28);
+    margin-bottom:1.3em;
+}
+.progress-c_cpp{
+    height:10px;
+    width:55vw;
+    background-color:rgb(186, 28, 248);
+    margin-bottom:1.3em;
+}
+.skill{
+    position:absolute;
+    bottom:0;
+    font-family: 'Roboto', sans-serif;
+    margin-top:1rem;
+}
+.percent{
+    font-size:.7em;
+    color:black;
+}
+.html{
+    bottom : 12rem;
+}
+.css{
+    
+    bottom : 6rem;
+}
+.php{
+    bottom:-6rem;
+}
+.js{
+    bottom:0;
+}
+.c_cpp{
+    bottom:-12rem;
+}
+.skillContainer{
+    /* border:2px solid red; */
+    height:19rem;
+    width:60vw;
+}
+.img {
+    height: 543px;
+    position: absolute;
+    right: 0;
+    top: 35rem;
+    left: 20rem;
+}
+
+.main {
+    width: 80vw;
+    margin-left: 16rem;
+}
+}
+.ham img{
+    height:5rem;
+    position:absolute;
+    cursor:pointer;
+}
+.cross{
+    height:1rem;
+    width:5rem;
+    position:absolute;
+    left:10rem;
+    left:10rem;
+    /* left:0; */
+    cursor:pointer;
+}
+.menu{
+    height:1rem;
+    width:5rem;
+    position:absolute;
+    left:0;
+    /* left:0; */
+    cursor:pointer;
+
+}
